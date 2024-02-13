@@ -35,6 +35,10 @@
   font-size: 13px;
 }
 
+.flash_message {
+  color: green;
+}
+
 .index_body{
   margin: 33px;
   font-size: 13px;
@@ -64,10 +68,6 @@
   margin: 33px;
   font-size: 13px;
   font-family: verdana, arial, helvetica, sans-serif;
-}
-
-.show_error_message{
-  color: green;
 }
 
 .show_body p{

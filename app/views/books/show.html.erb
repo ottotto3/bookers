@@ -1,8 +1,4 @@
 <body class="show_body">
-  
-<p class="show_error_message">
-  <%= flash[:notice] %>
-</p>
 
 <p>
   <strong>Title:</strong>
@@ -14,9 +10,9 @@
   <%= @book.body %>
 </p>
 
-<a>
+<p>
 <%= link_to "Edit", edit_book_path(@book.id) %> | 
-<%= link_to "Back", '/books/' %>
-</a>
+<%= link_to "Back", books_path %>
+</p>
 
 </body>
